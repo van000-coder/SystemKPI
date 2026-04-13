@@ -81,7 +81,6 @@ Do NOT use it on networks or systems without proper authorization.
 sudo apt update
 sudo apt install golang libpcap-dev nftables
 
-**Run**
 go mod init network-lab
 go get github.com/google/gopacket
 sudo go run network_lab_ultra.go
