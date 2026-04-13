@@ -63,9 +63,33 @@ Designed for testing firewall behavior, analyzing traffic patterns, and simulati
 - root privileges
 
 ---
+## ⚠️Disclaimer⚠️ 
 
+This tool is intended for:
+
+educational purposes
+network experimentation
+local testing environments
+Do NOT use it on networks or systems without proper authorization.
+
+⚠️THE AUTHOR IS NOT RESPONSIBLE FOR ITS USE⚠️
+⚠️THE AUTHOR IS NOT RESPONSIBLE FOR ITS USE⚠️
+⚠️THE AUTHOR IS NOT RESPONSIBLE FOR ITS USE⚠️
 ## Installation
 
 ```bash
 sudo apt update
 sudo apt install golang libpcap-dev nftables
+
+**Run**
+go mod init network-lab
+go get github.com/google/gopacket
+sudo go run network_lab_ultra.go
+
+Open in browser:
+
+http://localhost:8080
+
+Build Binary
+go build -o network-lab
+sudo ./network-lab
