@@ -1,0 +1,6 @@
+go mod init network-lab
+go get github.com/google/gopacket
+sudo go run network_lab_ultra.go
+Open in browser:
+
+http://localhost:8080
